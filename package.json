@@ -1,0 +1,25 @@
+{
+  "name": "fast-check-goma-1015",
+  "version": "1.0.0",
+  "description": "Property based testing examples based on fast-check",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddiefujiwara/fast-check-goma-1015.git"
+  },
+  "author": "Fumikazu Fujiwara <github@ze.gs>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freddiefujiwara/fast-check-goma-1015/issues"
+  },
+  "homepage": "https://github.com/freddiefujiwara/fast-check-goma-1015#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "fast-check": "^1.23.0",
+    "jest": "^25.1.0"
+  }
+}
