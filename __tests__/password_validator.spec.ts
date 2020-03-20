@@ -68,7 +68,7 @@ describe('spec 03 : the password should be mixed alphabets , numbers and printab
         );
     });
 });
-describe('Positibe test', () => {
+describe('Positive test', () => {
     test('Passwords only consisting proper characters{8,20} should be accepted', () => {
         fc.assert(
             fc.property(properString(8,20),(password:string) => {
