@@ -1,5 +1,5 @@
 {
-  "name": "fast-check-goma-1015",
+  "name": "fast-check-password-validator-example",
   "version": "1.0.0",
   "description": "Property based testing examples based on fast-check",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freddiefujiwara/fast-check-goma-1015.git"
+    "url": "git+https://github.com/freddiefujiwara/fast-check-password-validator-example.git"
   },
   "author": "Fumikazu Fujiwara <github@ze.gs>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/freddiefujiwara/fast-check-goma-1015/issues"
+    "url": "https://github.com/freddiefujiwara/fast-check-password-validator-example/issues"
   },
-  "homepage": "https://github.com/freddiefujiwara/fast-check-goma-1015#readme",
+  "homepage": "https://github.com/freddiefujiwara/fast-check-password-validator-example#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/preset-env": "^7.8.7",
