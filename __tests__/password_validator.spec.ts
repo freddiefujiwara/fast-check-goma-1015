@@ -68,13 +68,3 @@ describe('spec 03 : the password should be mixed alphabets , numbers and printab
         );
     });
 });
-describe('Positibe test', () => {
-    test('Passwords only consisting proper characters{8,20} should be accepted', () => {
-        fc.assert(
-            fc.property(properString(8,20),(password:string) => {
-                //   console.log(password);
-                expect(validate(password)).toBe(true);
-            })
-        );
-    });
-});
