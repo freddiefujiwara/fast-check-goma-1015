@@ -2,9 +2,9 @@
 Test example for the password form
 
 ## spec
-- the password is required
-- the password should have a minimum of 8 characters and maximum of 20 characters
-- the password should mixed alphabets,numbers and printable symbols
+- spec 01 : the passwords is required
+- spec 02 : the password should have a minimum of 8 characters and maximum of 20 characters
+- spec 03 : the password should be mixed alphabets , numbers and printable symbols
 
 
 ## how to execute
