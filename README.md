@@ -1,17 +1,18 @@
 # Property based testing with [fast-check](https://github.com/dubzzz/fast-check)
-Test example for [goma-1015](http://aster.or.jp/business/contest/rulebooku30.html)
+Test example for the password form
 
-In order to add **fast-check** to you project, you have to run:
+## spec
+- the password is required
+- the password should have a minimum of 8 characters and maximum of 20 characters
+- the password should mixed alphabets,numbers and printable symbols
 
-```bash
-npm install fast-check --save-dev
-```
 
+## how to execute
 If you want to run the properties of this repository locally:
 
 ```bash
-git clone https://github.com/freddiefujiwara/fast-check-goma-1015.git
-cd fast-check-goma-1015
+git clone https://github.com/freddiefujiwara/fast-check-password-validator-example.git
+cd fast-check-password-validator-example
 npm i
 npm test
 ```
